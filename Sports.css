@@ -1,0 +1,60 @@
+/* Navbar */
+.navbar{
+    background: black !important;
+}
+
+.navbar-brand,
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: #ccc !important;
+}
+
+/* Page Heading */
+.page-heading{
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.page-heading h1{
+    font-size: 55px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.page-heading p{
+    font-size: 20px;
+    color: #ddd;
+    margin-top: 15px;
+}
+
+/* Product Cards */
+.shoe-card{
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.shoe-card img{
+    height: 250px;
+    object-fit: cover;
+}
+
+.shoe-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+.price{
+    font-weight: bold;
+    color: #000;
+}
+
+.btn-dark{
+    border-radius: 25px;
+}

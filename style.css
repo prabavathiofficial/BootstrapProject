@@ -1,0 +1,141 @@
+/* Navbar Background */
+.navbar {
+    background-color: #000 !important;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    color: white !important;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Navbar Links */
+.nav-link {
+    color: white !important;
+}
+
+/* Navbar Links Hover */
+.nav-link:hover {
+    color: #cfcfcf !important;
+}
+
+/* Search Button */
+.btn-outline-success {
+    color: white;
+    border-color: white;
+}
+
+.btn-outline-success:hover {
+    background-color: white;
+    color: black;
+}
+/* ==========================
+   Carousel
+========================== */
+
+.carousel {
+    margin-top: 0;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+/* Caption Position */
+.carousel-caption {
+    bottom: 20%;
+    text-align: left;
+}
+
+/* Heading */
+.carousel-caption h5 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Paragraph */
+.carousel-caption p {
+    font-size: 1.2rem;
+    color: #f8f9fa;
+    max-width: 500px;
+}
+
+/* Dark Overlay */
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+/* Keep caption above overlay */
+.carousel-caption {
+    z-index: 2;
+}
+
+/* Navigation Buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 70%;
+}
+
+/* Indicators */
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+/* Shoe Card */
+
+.shoe-card{
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.shoe-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+}
+
+.shoe-card img{
+    height: 250px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.shoe-card:hover img{
+    transform: scale(1.08);
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.card-text{
+    color: gray;
+}
+
+.price{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btn-dark{
+    border-radius: 30px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.btn-dark:hover{
+    background-color: #333;
+}

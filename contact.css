@@ -1,0 +1,84 @@
+/* Navbar */
+.navbar{
+    background: black !important;
+}
+
+.navbar-brand,
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: #ccc !important;
+}
+
+/* Page Heading */
+.page-heading{
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.page-heading h1{
+    font-size: 55px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.page-heading p{
+    font-size: 20px;
+    color: #ddd;
+    margin-top: 15px;
+}
+/* Navbar */
+
+.navbar{
+    background:black !important;
+}
+
+.navbar-brand,
+.nav-link{
+    color:white !important;
+}
+
+.nav-link:hover{
+    color:#ccc !important;
+}
+
+/* Contact Heading */
+
+.contact-heading{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:80px 0;
+}
+
+.contact-heading h1{
+    font-size:55px;
+    font-weight:bold;
+    letter-spacing:3px;
+}
+
+.contact-heading p{
+    font-size:20px;
+    color:#ddd;
+    margin-top:15px;
+}
+
+/* Contact Form */
+
+.form-control{
+    border-radius:10px;
+    padding:12px;
+}
+
+.btn-dark{
+    border-radius:30px;
+    padding:10px 30px;
+}
+
+.btn-dark:hover{
+    background:#333;
+}
